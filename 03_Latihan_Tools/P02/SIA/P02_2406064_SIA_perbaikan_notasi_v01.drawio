@@ -1,0 +1,25 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="S8fmEGCCNyZP4zLNd453">
+    <mxGraphModel dx="844" dy="1613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8cJ0YuJ4G3AFgsqPUikr-1" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" value="sistem laboratorium." vertex="1">
+          <mxGeometry height="340" width="620" x="110" y="-110" as="geometry" />
+        </mxCell>
+        <mxCell id="8cJ0YuJ4G3AFgsqPUikr-2" parent="8cJ0YuJ4G3AFgsqPUikr-1" style="fontStyle=0;html=1;whiteSpace=wrap;" value="Lihat Jadwal Kuliah" vertex="1">
+          <mxGeometry height="40" width="120" x="440" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8cJ0YuJ4G3AFgsqPUikr-3" parent="8cJ0YuJ4G3AFgsqPUikr-1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Mahasiswa" vertex="1">
+          <mxGeometry height="60" width="30" x="70" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8cJ0YuJ4G3AFgsqPUikr-4" parent="8cJ0YuJ4G3AFgsqPUikr-1" style="fontStyle=0;html=1;whiteSpace=wrap;shape=ellipse;perimeter=ellipsePerimeter;" value="Kelola Jadwal Kuliah" vertex="1">
+          <mxGeometry height="40" width="120" x="440" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="8cJ0YuJ4G3AFgsqPUikr-5" edge="1" parent="8cJ0YuJ4G3AFgsqPUikr-1" source="8cJ0YuJ4G3AFgsqPUikr-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.333;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="8cJ0YuJ4G3AFgsqPUikr-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
