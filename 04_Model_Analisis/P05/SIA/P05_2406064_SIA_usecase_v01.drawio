@@ -1,0 +1,157 @@
+<mxfile host="65bd71144e">
+    <diagram name="SIA-UC07" id="RE7BYzxB7sClmc5qF4Mt">
+        <mxGraphModel dx="1245" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="T1" parent="1" style="text;html=1;whiteSpace=wrap;labelBorderColor=default;" value="&lt;table border=&quot;1&quot; cellpadding=&quot;8&quot; cellspacing=&quot;0&quot; style=&quot;border-collapse:collapse; width:100%; font-family:Arial, sans-serif; font-size:12px;&quot;&gt;     &lt;tbody&gt;&lt;tr&gt;&lt;td width=&quot;30%&quot;&gt;&lt;b&gt;Nama use case&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;SIA-UC07 Lihat Kalender Akademik&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;b&gt;Aktor&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Civitas Akademika (berlaku untuk Mahasiswa dan Dosen)&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;b&gt;Tujuan&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Civitas Akademika dapat melihat jadwal kegiatan akademik dalam satu semester&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;b&gt;Deskripsi&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Civitas Akademika membuka fungsi kalender akademik dan sistem menampilkan daftar jadwal kegiatan akademik&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr style=&quot;background-color: rgb(240, 240, 240);&quot;&gt;&lt;td&gt;&lt;b&gt;Kegiatan&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Respon sistem&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr style=&quot;background-color: rgb(250, 250, 250);&quot;&gt;&lt;td colspan=&quot;2&quot;&gt;&lt;b&gt;Skenario Normal&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;b&gt;1. Civitas Akademika membuka fungsi Lihat Kalender Akademik&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;2. Sistem menampilkan kalender akademik semester aktif&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr style=&quot;background-color: rgb(250, 250, 250);&quot;&gt;&lt;td colspan=&quot;2&quot;&gt;&lt;b&gt;Skenario Alternative&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;b&gt;3. Data kalender akademik belum tersedia (cabang dari langkah 2)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;4. Sistem menampilkan pesan kalender akademik belum tersedia&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;b&gt;Skenario Akhir&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Use case selesai jika kalender akademik ditampilkan; jika data belum tersedia, use case selesai dengan pesan tersebut.&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+                    <mxGeometry height="600" width="800" x="40" y="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="32WZ1gdXQKb8hdBxK_lq" name="SIA-UC08 ">
+        <mxGraphModel dx="846" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="T2" parent="1" style="text;html=1;whiteSpace=wrap;fontColor=default;" value="&lt;table border=&quot;1&quot; cellpadding=&quot;8&quot; cellspacing=&quot;0&quot; style=&quot;border-collapse:collapse; width:100%; font-family:Arial, sans-serif; font-size:12px;&quot;&gt;     &lt;tbody&gt;&lt;tr&gt;&lt;td width=&quot;30%&quot;&gt;&lt;b&gt;Nama use case&lt;/b&gt;&lt;/td&gt;&lt;td&gt;SIA-UC08 Input Nilai Mata Kuliah&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;b&gt;Aktor&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Dosen&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;b&gt;Tujuan&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Nilai mahasiswa pada mata kuliah yang diampu tersimpan ke dalam sistem&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;b&gt;Deskripsi&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Dosen pengampu memilih mata kuliah, mengisi nilai mahasiswa, dan menyimpan data nilai. Prasyarat: Dosen adalah pengampu mata kuliah tersebut&lt;/td&gt;&lt;/tr&gt;     &lt;tr style=&quot;background-color:#f0f0f0;&quot;&gt;&lt;td&gt;&lt;b&gt;Kegiatan&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Respon sistem&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr style=&quot;background-color:#fafafa;&quot;&gt;&lt;td colspan=&quot;2&quot;&gt;&lt;b&gt;Skenario Normal&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;1. Dosen memilih mata kuliah yang diampu&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;2. Sistem menampilkan daftar mahasiswa pada mata kuliah tersebut&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;3. Dosen mengisi nilai mahasiswa&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;4. Sistem memeriksa validitas rentang nilai (harus berada dalam rentang sah)&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;5. Dosen menyimpan data nilai&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;6. Sistem menyimpan data nilai dan menampilkan konfirmasi penyimpanan&lt;/td&gt;&lt;/tr&gt;     &lt;tr style=&quot;background-color:#fafafa;&quot;&gt;&lt;td colspan=&quot;2&quot;&gt;&lt;b&gt;Skenario Alternative&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;7. Nilai yang diisi berada di luar rentang yang sah (cabang dari langkah 4)&lt;/td&gt;&lt;td&gt;8. Sistem menolak isian nilai dan menampilkan pesan nilai di luar rentang yang sah&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;b&gt;Skenario Akhir&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Use case selesai jika data nilai tersimpan; jika nilai di luar rentang yang sah, data tidak tersimpan sampai nilai diperbaiki.&lt;br&gt;&lt;br&gt;&lt;i&gt;Keterangan: Use case ini direalisasikan oleh collaboration SIA-CO01 Input Nilai Mata Kuliah.&lt;/i&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+                    <mxGeometry height="600" width="800" x="40" y="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="iPkrmbX37IjDSCF11sqA" name="SIA-UC09">
+        <mxGraphModel dx="907" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="T3" parent="1" style="text;html=1;whiteSpace=wrap;" value="&lt;table border=&#39;1&#39; cellpadding=&#39;8&#39; cellspacing=&#39;0&#39; style=&#39;border-collapse:collapse; width:100%; font-family:Arial, sans-serif; font-size:12px;&#39;&gt;     &lt;tr&gt;&lt;td width=&#39;30%&#39;&gt;&lt;b&gt;Nama use case&lt;/b&gt;&lt;/td&gt;&lt;td&gt;SIA-UC09 Lihat KHS&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;b&gt;Aktor&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Mahasiswa&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;b&gt;Tujuan&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Mahasiswa dapat melihat Kartu Hasil Studi (KHS) yang berisi nilai yang sudah dipublikasikan&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;b&gt;Deskripsi&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Mahasiswa memilih semester dan sistem menampilkan KHS dengan nilai yang telah dipublikasikan&lt;/td&gt;&lt;/tr&gt;     &lt;tr style=&#39;background-color:#f0f0f0;&#39;&gt;&lt;td&gt;&lt;b&gt;Kegiatan&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Respon sistem&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr style=&#39;background-color:#fafafa;&#39;&gt;&lt;td colspan=&#39;2&#39;&gt;&lt;b&gt;Skenario Normal&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;1. Mahasiswa membuka fungsi Lihat KHS dan memilih semester&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;2. Sistem memeriksa ketersediaan nilai yang sudah dipublikasikan pada semester tersebut&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;3. Sistem menampilkan KHS berisi nilai yang sudah dipublikasikan&lt;/td&gt;&lt;/tr&gt;     &lt;tr style=&#39;background-color:#fafafa;&#39;&gt;&lt;td colspan=&#39;2&#39;&gt;&lt;b&gt;Skenario Alternative&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;4. Belum ada nilai yang dipublikasikan pada semester terpilih (cabang dari langkah 2)&lt;/td&gt;&lt;td&gt;5. Sistem menampilkan pesan belum ada nilai yang dipublikasikan untuk semester ini&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;b&gt;Skenario Akhir&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Use case selesai jika KHS ditampilkan; jika belum ada nilai yang dipublikasikan, use case selesai dengan pesan tersebut.&lt;br&gt;&lt;br&gt;&lt;i&gt;Keterangan: Use case ini direalisasikan oleh collaboration SIA-CO02 Lihat KHS.&lt;/i&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;/table&gt;" vertex="1">
+                    <mxGeometry height="600" width="800" x="40" y="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="vo-Zk-Q3v8deBho4RGom" name="SIA-UC10">
+        <mxGraphModel dx="896" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="T4" parent="1" style="text;html=1;whiteSpace=wrap;" value="&lt;table border=&#39;1&#39; cellpadding=&#39;8&#39; cellspacing=&#39;0&#39; style=&#39;border-collapse:collapse; width:100%; font-family:Arial, sans-serif; font-size:12px;&#39;&gt;     &lt;tr&gt;&lt;td width=&#39;30%&#39;&gt;&lt;b&gt;Nama use case&lt;/b&gt;&lt;/td&gt;&lt;td&gt;SIA-UC10 Kelola Data Mahasiswa&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;b&gt;Aktor&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Admin Akademik&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;b&gt;Tujuan&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Data mahasiswa terkelola melalui satu fungsi pengelolaan bersama&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;b&gt;Deskripsi&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Admin Akademik membuka fungsi pengelolaan data mahasiswa, memilih bentuk pengelolaan, dan menyimpan perubahan. Bentuk tambah, ubah, dan hapus dijabarkan pada tabel khususnya masing-masing&lt;/td&gt;&lt;/tr&gt;     &lt;tr style=&#39;background-color:#f0f0f0;&#39;&gt;&lt;td&gt;&lt;b&gt;Kegiatan&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Respon sistem&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr style=&#39;background-color:#fafafa;&#39;&gt;&lt;td colspan=&#39;2&#39;&gt;&lt;b&gt;Skenario Normal&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;1. Admin Akademik membuka fungsi Kelola Data Mahasiswa&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;2. Sistem menampilkan daftar data mahasiswa&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;3. Admin Akademik memilih bentuk pengelolaan, yaitu tambah, ubah, atau hapus&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;4. Sistem menampilkan formulir sesuai bentuk pengelolaan yang dipilih&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;5. Admin Akademik mengisi atau mengonfirmasi data mahasiswa&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;6. Sistem memeriksa kelengkapan dan keabsahan data&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;7. Admin Akademik menyimpan perubahan&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;8. Sistem menyimpan perubahan dan menampilkan konfirmasi&lt;/td&gt;&lt;/tr&gt;     &lt;tr style=&#39;background-color:#fafafa;&#39;&gt;&lt;td colspan=&#39;2&#39;&gt;&lt;b&gt;Skenario Alternative&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;9. Data tidak lengkap atau tidak sah (cabang dari langkah 6)&lt;/td&gt;&lt;td&gt;10. Sistem menolak penyimpanan dan menampilkan pesan kesalahan data&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;b&gt;Skenario Akhir&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Use case selesai jika perubahan data mahasiswa tersimpan; jika data tidak lengkap atau tidak sah, perubahan tidak tersimpan.&lt;/td&gt;&lt;/tr&gt;     &lt;/table&gt;" vertex="1">
+                    <mxGeometry height="600" width="800" x="40" y="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="5OvP_imQNT4BGiVvNOCL" name="SIA-UC11 ">
+        <mxGraphModel dx="846" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="T5" parent="1" style="text;html=1;whiteSpace=wrap;" value="&lt;table border=&#39;1&#39; cellpadding=&#39;8&#39; cellspacing=&#39;0&#39; style=&#39;border-collapse:collapse; width:100%; font-family:Arial, sans-serif; font-size:12px;&#39;&gt;     &lt;tr&gt;&lt;td width=&#39;30%&#39;&gt;&lt;b&gt;Nama use case&lt;/b&gt;&lt;/td&gt;&lt;td&gt;SIA-UC11 Tambah Data Mahasiswa&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;b&gt;Aktor&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Admin Akademik&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;b&gt;Tujuan&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Data mahasiswa baru tersimpan sebagai bentuk khusus dari pengelolaan data mahasiswa&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;b&gt;Deskripsi&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Admin Akademik mengisi data mahasiswa baru dan menyimpan data tersebut; langkah bersama mengikuti Tabel skenario SIA-UC10&lt;/td&gt;&lt;/tr&gt;     &lt;tr style=&#39;background-color:#f0f0f0;&#39;&gt;&lt;td&gt;&lt;b&gt;Kegiatan&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Respon sistem&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr style=&#39;background-color:#fafafa;&#39;&gt;&lt;td colspan=&#39;2&#39;&gt;&lt;b&gt;Skenario Normal&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;1. Admin Akademik membuka fungsi Tambah Data Mahasiswa&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;2. Sistem menampilkan formulir data mahasiswa baru&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;3. Admin Akademik mengisi data mahasiswa baru&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;4. Sistem memeriksa kelengkapan data&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;5. Admin Akademik menyimpan data&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;6. Sistem menyimpan data mahasiswa baru dan menampilkan konfirmasi&lt;/td&gt;&lt;/tr&gt;     &lt;tr style=&#39;background-color:#fafafa;&#39;&gt;&lt;td colspan=&#39;2&#39;&gt;&lt;b&gt;Skenario Alternative&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;7. Data tidak lengkap (cabang dari langkah 4)&lt;/td&gt;&lt;td&gt;8. Sistem menolak penyimpanan dan meminta Admin Akademik melengkapi data&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;b&gt;Skenario Akhir&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Use case selesai jika data mahasiswa baru tersimpan; jika data tidak lengkap, data tidak tersimpan.&lt;br&gt;&lt;br&gt;&lt;i&gt;Keterangan: Use case khusus dari SIA-UC10 Kelola Data Mahasiswa. Perilaku pembeda: data mahasiswa baru tersimpan. Langkah bersama mengikuti Tabel skenario SIA-UC10.&lt;/i&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;/table&gt;" vertex="1">
+                    <mxGeometry height="600" width="800" x="40" y="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="GOf0y9HYCadjM-8-cVgJ" name="SIA-UC12 ">
+        <mxGraphModel dx="846" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="T6" parent="1" style="text;html=1;whiteSpace=wrap;" value="&lt;table border=&#39;1&#39; cellpadding=&#39;8&#39; cellspacing=&#39;0&#39; style=&#39;border-collapse:collapse; width:100%; font-family:Arial, sans-serif; font-size:12px;&#39;&gt;     &lt;tr&gt;&lt;td width=&#39;30%&#39;&gt;&lt;b&gt;Nama use case&lt;/b&gt;&lt;/td&gt;&lt;td&gt;SIA-UC12 Ubah Data Mahasiswa&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;b&gt;Aktor&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Admin Akademik&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;b&gt;Tujuan&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Data mahasiswa berubah sebagai bentuk khusus dari pengelolaan data mahasiswa&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;b&gt;Deskripsi&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Admin Akademik memilih data mahasiswa, mengubah datanya, dan menyimpan perubahan; langkah bersama mengikuti Tabel skenario SIA-UC10&lt;/td&gt;&lt;/tr&gt;     &lt;tr style=&#39;background-color:#f0f0f0;&#39;&gt;&lt;td&gt;&lt;b&gt;Kegiatan&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Respon sistem&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr style=&#39;background-color:#fafafa;&#39;&gt;&lt;td colspan=&#39;2&#39;&gt;&lt;b&gt;Skenario Normal&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;1. Admin Akademik memilih data mahasiswa yang akan diubah&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;2. Sistem menampilkan data mahasiswa saat ini&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;3. Admin Akademik mengubah data mahasiswa&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;4. Sistem memeriksa perubahan data&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;5. Admin Akademik menyimpan perubahan&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;6. Sistem menyimpan data mahasiswa yang diubah dan menampilkan konfirmasi&lt;/td&gt;&lt;/tr&gt;     &lt;tr style=&#39;background-color:#fafafa;&#39;&gt;&lt;td colspan=&#39;2&#39;&gt;&lt;b&gt;Skenario Alternative&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;7. Data mahasiswa tidak ditemukan (cabang dari langkah 2)&lt;/td&gt;&lt;td&gt;8. Sistem menampilkan pesan data mahasiswa tidak ditemukan&lt;/td&gt;&lt;/tr&gt;     &lt;tr&gt;&lt;td&gt;&lt;b&gt;Skenario Akhir&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Use case selesai jika perubahan data mahasiswa tersimpan; jika data tidak ditemukan, perubahan tidak tersimpan.&lt;br&gt;&lt;br&gt;&lt;i&gt;Keterangan: Use case khusus dari SIA-UC10 Kelola Data Mahasiswa. Perilaku pembeda: data mahasiswa berubah. Langkah bersama mengikuti Tabel skenario SIA-UC10.&lt;/i&gt;&lt;/td&gt;&lt;/tr&gt;     &lt;/table&gt;" vertex="1">
+                    <mxGeometry height="600" width="800" x="40" y="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="azcjDGR-JUnX_oJjj-Ot" name="SIA-UC13">
+        <mxGraphModel dx="1091" dy="871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="sia-uc13-title" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacingLeft=8;spacingRight=8;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=none;fillColor=none;fontStyle=1;" value="Tabel 7. Skenario Use Case SIA-UC13 Hapus Data Mahasiswa" vertex="1">
+                    <mxGeometry height="34" width="740" x="55" y="38" as="geometry"/>
+                </mxCell>
+                <mxCell id="sia-uc13-01-L" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;fontFamily=Arial;fontSize=14;fontColor=#000000;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontStyle=1;" value="Nama use case" vertex="1">
+                    <mxGeometry height="34" width="250" x="55" y="86" as="geometry"/>
+                </mxCell>
+                <mxCell id="sia-uc13-01-R" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;fontFamily=Arial;fontSize=14;fontColor=#000000;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;" value="SIA-UC13 Hapus Data Mahasiswa" vertex="1">
+                    <mxGeometry height="34" width="490" x="305" y="86" as="geometry"/>
+                </mxCell>
+                <mxCell id="sia-uc13-02-L" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;fontFamily=Arial;fontSize=14;fontColor=#000000;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontStyle=1;" value="Aktor" vertex="1">
+                    <mxGeometry height="34" width="250" x="55" y="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="sia-uc13-02-R" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;fontFamily=Arial;fontSize=14;fontColor=#000000;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;" value="Admin Akademik" vertex="1">
+                    <mxGeometry height="34" width="490" x="305" y="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="sia-uc13-03-L" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;fontFamily=Arial;fontSize=14;fontColor=#000000;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontStyle=1;" value="Tujuan" vertex="1">
+                    <mxGeometry height="46" width="250" x="55" y="154" as="geometry"/>
+                </mxCell>
+                <mxCell id="sia-uc13-03-R" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;fontFamily=Arial;fontSize=14;fontColor=#000000;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;" value="Data mahasiswa terhapus sebagai bentuk khusus dari&lt;br&gt;pengelolaan data mahasiswa" vertex="1">
+                    <mxGeometry height="46" width="490" x="305" y="154" as="geometry"/>
+                </mxCell>
+                <mxCell id="sia-uc13-04-L" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;fontFamily=Arial;fontSize=14;fontColor=#000000;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontStyle=1;" value="Deskripsi" vertex="1">
+                    <mxGeometry height="60" width="250" x="55" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="sia-uc13-04-R" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;fontFamily=Arial;fontSize=14;fontColor=#000000;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;" value="Admin Akademik memilih data mahasiswa, mengonfirmasi&lt;br&gt;penghapusan, dan sistem menghapus data tersebut; langkah&lt;br&gt;bersama mengikuti Tabel skenario SIA-UC10" vertex="1">
+                    <mxGeometry height="60" width="490" x="305" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="sia-uc13-05-L" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;fontFamily=Arial;fontSize=14;fontColor=#000000;strokeColor=#000000;strokeWidth=1;fillColor=#F2F2F2;fontStyle=1;" value="Kegiatan" vertex="1">
+                    <mxGeometry height="32" width="370" x="55" y="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="sia-uc13-05-R" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;fontFamily=Arial;fontSize=14;fontColor=#000000;strokeColor=#000000;strokeWidth=1;fillColor=#F2F2F2;fontStyle=1;" value="Respon sistem" vertex="1">
+                    <mxGeometry height="32" width="370" x="425" y="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="sia-uc13-06-Full" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;fontFamily=Arial;fontSize=14;fontColor=#000000;strokeColor=#000000;strokeWidth=1;fillColor=#FAFAFA;fontStyle=1;" value="Skenario Normal" vertex="1">
+                    <mxGeometry height="30" width="740" x="55" y="292" as="geometry"/>
+                </mxCell>
+                <mxCell id="sia-uc13-07-L" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;fontFamily=Arial;fontSize=14;fontColor=#000000;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;" value="1. Admin Akademik memilih data mahasiswa&lt;br&gt;yang akan dihapus" vertex="1">
+                    <mxGeometry height="46" width="370" x="55" y="322" as="geometry"/>
+                </mxCell>
+                <mxCell id="sia-uc13-07-R" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;fontFamily=Arial;fontSize=14;fontColor=#000000;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;" value="" vertex="1">
+                    <mxGeometry height="46" width="370" x="425" y="322" as="geometry"/>
+                </mxCell>
+                <mxCell id="sia-uc13-08-L" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;fontFamily=Arial;fontSize=14;fontColor=#000000;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;" value="" vertex="1">
+                    <mxGeometry height="46" width="370" x="55" y="368" as="geometry"/>
+                </mxCell>
+                <mxCell id="sia-uc13-08-R" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;fontFamily=Arial;fontSize=14;fontColor=#000000;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;" value="2. Sistem memeriksa status mahasiswa tidak&lt;br&gt;memiliki data akademik aktif" vertex="1">
+                    <mxGeometry height="46" width="370" x="425" y="368" as="geometry"/>
+                </mxCell>
+                <mxCell id="sia-uc13-09-L" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;fontFamily=Arial;fontSize=14;fontColor=#000000;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;" value="3. Admin Akademik mengonfirmasi penghapusan" vertex="1">
+                    <mxGeometry height="34" width="370" x="55" y="414" as="geometry"/>
+                </mxCell>
+                <mxCell id="sia-uc13-09-R" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;fontFamily=Arial;fontSize=14;fontColor=#000000;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;" value="" vertex="1">
+                    <mxGeometry height="34" width="370" x="425" y="414" as="geometry"/>
+                </mxCell>
+                <mxCell id="sia-uc13-10-L" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;fontFamily=Arial;fontSize=14;fontColor=#000000;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;" value="" vertex="1">
+                    <mxGeometry height="46" width="370" x="55" y="448" as="geometry"/>
+                </mxCell>
+                <mxCell id="sia-uc13-10-R" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;fontFamily=Arial;fontSize=14;fontColor=#000000;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;" value="4. Sistem menghapus data mahasiswa dan&lt;br&gt;menampilkan konfirmasi penghapusan" vertex="1">
+                    <mxGeometry height="46" width="370" x="425" y="448" as="geometry"/>
+                </mxCell>
+                <mxCell id="sia-uc13-11-Full" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;fontFamily=Arial;fontSize=14;fontColor=#000000;strokeColor=#000000;strokeWidth=1;fillColor=#FAFAFA;fontStyle=1;" value="Skenario Alternative" vertex="1">
+                    <mxGeometry height="30" width="740" x="55" y="494" as="geometry"/>
+                </mxCell>
+                <mxCell id="sia-uc13-12-L" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;fontFamily=Arial;fontSize=14;fontColor=#000000;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;" value="5. Mahasiswa memiliki data akademik aktif&lt;br&gt;(cabang dari langkah 2)" vertex="1">
+                    <mxGeometry height="46" width="370" x="55" y="524" as="geometry"/>
+                </mxCell>
+                <mxCell id="sia-uc13-12-R" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;fontFamily=Arial;fontSize=14;fontColor=#000000;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;" value="" vertex="1">
+                    <mxGeometry height="46" width="370" x="425" y="524" as="geometry"/>
+                </mxCell>
+                <mxCell id="sia-uc13-13-L" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;fontFamily=Arial;fontSize=14;fontColor=#000000;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;" value="" vertex="1">
+                    <mxGeometry height="46" width="370" x="55" y="570" as="geometry"/>
+                </mxCell>
+                <mxCell id="sia-uc13-13-R" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;fontFamily=Arial;fontSize=14;fontColor=#000000;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;" value="6. Sistem menolak penghapusan dan menampilkan&lt;br&gt;pesan mahasiswa masih memiliki data aktif" vertex="1">
+                    <mxGeometry height="46" width="370" x="425" y="570" as="geometry"/>
+                </mxCell>
+                <mxCell id="sia-uc13-14-L" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=8;spacingRight=8;spacingTop=8;fontFamily=Arial;fontSize=14;fontColor=#000000;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontStyle=1;" value="Skenario Akhir" vertex="1">
+                    <mxGeometry height="140" width="370" x="55" y="616" as="geometry"/>
+                </mxCell>
+                <mxCell id="sia-uc13-14-R" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=8;spacingRight=8;spacingTop=8;fontFamily=Arial;fontSize=14;fontColor=#000000;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;" value="&lt;font&gt;Use case selesai jika data mahasiswa terhapus;&lt;br&gt;jika mahasiswa memiliki data akademik aktif,&lt;br&gt;data tidak terhapus.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="140" width="370" x="425" y="616" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
